@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- 1. Основные мета-теги -->
+    <title>CinemaWorld - Мир кино</title>
+    <meta name="description" content="ТОП-250 фильмов, популярные актёры и полная информация о кино">
+    <meta name="theme-color" content="#e50914">
+
+    <!-- 2. Open Graph (для красивых превью в VK, Telegram, WhatsApp) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://noladuskin-cell.github.io/cinema/">
+    <meta property="og:title" content="CinemaWorld - Мир кино">
+    <meta property="og:description" content="ТОП-250 фильмов, популярные актёры и полная информация о кино">
+    <meta property="og:image" content="https://noladuskin-cell.github.io/cinema/icons/icon-512x512.png">
+
+    <!-- 3. Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CinemaWorld - Мир кино">
+    <meta name="twitter:description" content="ТОП-250 фильмов, популярные актёры и полная информация о кино">
+    <meta name="twitter:image" content="https://noladuskin-cell.github.io/cinema/icons/icon-512x512.png">
+
+    <!-- 4. PWA и манифест (ВАЖНО: путь указан с учетом папки /cinema) -->
+    <link rel="manifest" href="/cinema/manifest.json">
+    <link rel="icon" href="icons/icon-192x192.png" type="image/png">
+    <link rel="apple-touch-icon" href="icons/icon-152x152.png">
+    <link rel="mask-icon" href="icons/icon-512x512.png" color="#e50914">
+
+    <!-- Подключение стилей (если есть style.css) -->
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        /* Базовые стили, чтобы сайт выглядел аккуратно сразу */
+        body { font-family: sans-serif; background: #0f0c29; color: white; margin: 0; padding: 20px; text-align: center; }
+        a { color: #e50914; text-decoration: none; font-weight: bold; }
+        .card { background: rgba(255,255,255,0.1); padding: 20px; margin: 10px auto; max-width: 600px; border-radius: 10px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>CinemaWorld - Мир кино</h1>
+        <p>Ваш путеводитель по миру кино</p>
+    </header>
+
+    <main>
+        <div class="card">
+            <h2>ТОП-250 фильмов</h2>
+            <p>Лучшие фильмы всех времён по версии критиков.</p>
+            <a href="index.html">Открыть список</a>
+        </div>
+
+        <div class="card">
+            <h2>Популярные актёры</h2>
+            <p>Звёзды мирового кино и их биографии.</p>
+            <a href="actors.html">Перейти к актёрам</a>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+{
+  "name": "CinemaWorld - Мир кино",
+  "short_name": "CinemaWorld",
+  "description": "ТОП-250 фильмов, популярные актёры и полная информация о кино",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "theme_color": "#e50914",
+  "background_color": "#0f0c29",
+  "orientation": "portrait-primary",
+  "lang": "ru",
+  "dir": "ltr",
+  "icons": [
+    { "src": "./icons/icon-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "./icons/icon-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "ТОП-250 фильмов",
+      "short_name": "ТОП-250",
+      "description": "Лучшие фильмы всех времён",
+      "url": "./index.html",
+      "icons": [{ "src": "./icons/icon-96x96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Популярные актёры",
+      "short_name": "Актёры",
+      "description": "Звёзды мирового кино",
+      "url": "./actors.html",
+      "icons": [{ "src": "./icons/icon-96x96.png", "sizes": "96x96" }]
+    }
+  ],
+  "categories": ["entertainment", "movies", "video"],
+  "screenshots": [
+    {
+      "src": "./screenshots/screenshot1.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "label": "Главная страница с ТОП-250 фильмами"
+    }
+  ],
+  "prefer_related_applications": false
+}
