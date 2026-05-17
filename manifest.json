@@ -1,5 +1,5 @@
 {
-  "name": "CinemaWorld",
+  "name": "CinemaWorld - Мир кино",
   "short_name": "CinemaWorld",
   "description": "ТОП-250 фильмов, популярные актёры и полная информация о кино",
   "start_url": ".",
@@ -19,6 +19,16 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "ТОП-250 фильмов",
+      "url": "./index.html"
+    },
+    {
+      "name": "Популярные актёры",
+      "url": "./actors.html"
     }
   ],
   "categories": ["entertainment", "video"],
